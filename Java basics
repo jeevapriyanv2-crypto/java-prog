@@ -1,0 +1,50 @@
+1. Print a Message
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, Java!");
+    }
+}
+
+2. Add Two Numbers
+public class AddNumbers {
+    public static void main(String[] args) {
+        int a = 5;
+        int b = 3;
+        int sum = a + b;
+        System.out.println("Sum: " + sum);
+    }
+}
+
+3. Check Even or Odd
+public class EvenOdd {
+    public static void main(String[] args) {
+        int number = 10;
+        if (number % 2 == 0) {
+            System.out.println(number + " is Even");
+        } else {
+            System.out.println(number + " is Odd");
+        }
+    }
+}
+
+4. Multiplication Table
+public class MultiplicationTable {
+    public static void main(String[] args) {
+        int num = 5;
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(num + " x " + i + " = " + (num * i));
+        }
+    }
+}
+
+5. Find Largest of Two Numbers
+public class LargestNumber {
+    public static void main(String[] args) {
+        int a = 8, b = 12;
+        if (a > b) {
+            System.out.println(a + " is larger");
+        } else {
+            System.out.println(b + " is larger");
+        }
+    }
+}
